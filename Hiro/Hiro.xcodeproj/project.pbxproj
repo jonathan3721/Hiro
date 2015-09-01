@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560E44B01B9554D3009C9BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E44AF1B9554D3009C9BFD /* AppDelegate.swift */; };
+		560E44B21B9554D3009C9BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E44B11B9554D3009C9BFD /* ViewController.swift */; };
+		560E44B51B9554D3009C9BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560E44B31B9554D3009C9BFD /* Main.storyboard */; };
+		560E44B81B9554D3009C9BFD /* Hiro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 560E44B61B9554D3009C9BFD /* Hiro.xcdatamodeld */; };
+		560E44BA1B9554D3009C9BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560E44B91B9554D3009C9BFD /* Assets.xcassets */; };
+		560E44BD1B9554D3009C9BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560E44BB1B9554D3009C9BFD /* LaunchScreen.storyboard */; };
+		560E44C81B9554D3009C9BFD /* HiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E44C71B9554D3009C9BFD /* HiroTests.swift */; };
+		560E44D31B9554D3009C9BFD /* HiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E44D21B9554D3009C9BFD /* HiroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		560E44C41B9554D3009C9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560E44A41B9554D3009C9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560E44AB1B9554D3009C9BFD;
+			remoteInfo = Hiro;
+		};
+		560E44CF1B9554D3009C9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560E44A41B9554D3009C9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560E44AB1B9554D3009C9BFD;
+			remoteInfo = Hiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		560E44AC1B9554D3009C9BFD /* Hiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560E44AF1B9554D3009C9BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		560E44B11B9554D3009C9BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		560E44B41B9554D3009C9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		560E44B71B9554D3009C9BFD /* Hiro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hiro.xcdatamodel; sourceTree = "<group>"; };
+		560E44B91B9554D3009C9BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560E44BC1B9554D3009C9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		560E44BE1B9554D3009C9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560E44C31B9554D3009C9BFD /* HiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		560E44C71B9554D3009C9BFD /* HiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroTests.swift; sourceTree = "<group>"; };
+		560E44C91B9554D3009C9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560E44CE1B9554D3009C9BFD /* HiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		560E44D21B9554D3009C9BFD /* HiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroUITests.swift; sourceTree = "<group>"; };
+		560E44D41B9554D3009C9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560E44A91B9554D3009C9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44C01B9554D3009C9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44CB1B9554D3009C9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560E44A31B9554D3009C9BFD = {
+			isa = PBXGroup;
+			children = (
+				560E44AE1B9554D3009C9BFD /* Hiro */,
+				560E44C61B9554D3009C9BFD /* HiroTests */,
+				560E44D11B9554D3009C9BFD /* HiroUITests */,
+				560E44AD1B9554D3009C9BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560E44AD1B9554D3009C9BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560E44AC1B9554D3009C9BFD /* Hiro.app */,
+				560E44C31B9554D3009C9BFD /* HiroTests.xctest */,
+				560E44CE1B9554D3009C9BFD /* HiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560E44AE1B9554D3009C9BFD /* Hiro */ = {
+			isa = PBXGroup;
+			children = (
+				560E44AF1B9554D3009C9BFD /* AppDelegate.swift */,
+				560E44B11B9554D3009C9BFD /* ViewController.swift */,
+				560E44B31B9554D3009C9BFD /* Main.storyboard */,
+				560E44B91B9554D3009C9BFD /* Assets.xcassets */,
+				560E44BB1B9554D3009C9BFD /* LaunchScreen.storyboard */,
+				560E44BE1B9554D3009C9BFD /* Info.plist */,
+				560E44B61B9554D3009C9BFD /* Hiro.xcdatamodeld */,
+			);
+			path = Hiro;
+			sourceTree = "<group>";
+		};
+		560E44C61B9554D3009C9BFD /* HiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				560E44C71B9554D3009C9BFD /* HiroTests.swift */,
+				560E44C91B9554D3009C9BFD /* Info.plist */,
+			);
+			path = HiroTests;
+			sourceTree = "<group>";
+		};
+		560E44D11B9554D3009C9BFD /* HiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				560E44D21B9554D3009C9BFD /* HiroUITests.swift */,
+				560E44D41B9554D3009C9BFD /* Info.plist */,
+			);
+			path = HiroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560E44AB1B9554D3009C9BFD /* Hiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560E44D71B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "Hiro" */;
+			buildPhases = (
+				560E44A81B9554D3009C9BFD /* Sources */,
+				560E44A91B9554D3009C9BFD /* Frameworks */,
+				560E44AA1B9554D3009C9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hiro;
+			productName = Hiro;
+			productReference = 560E44AC1B9554D3009C9BFD /* Hiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		560E44C21B9554D3009C9BFD /* HiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560E44DA1B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "HiroTests" */;
+			buildPhases = (
+				560E44BF1B9554D3009C9BFD /* Sources */,
+				560E44C01B9554D3009C9BFD /* Frameworks */,
+				560E44C11B9554D3009C9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560E44C51B9554D3009C9BFD /* PBXTargetDependency */,
+			);
+			name = HiroTests;
+			productName = HiroTests;
+			productReference = 560E44C31B9554D3009C9BFD /* HiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		560E44CD1B9554D3009C9BFD /* HiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560E44DD1B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "HiroUITests" */;
+			buildPhases = (
+				560E44CA1B9554D3009C9BFD /* Sources */,
+				560E44CB1B9554D3009C9BFD /* Frameworks */,
+				560E44CC1B9554D3009C9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560E44D01B9554D3009C9BFD /* PBXTargetDependency */,
+			);
+			name = HiroUITests;
+			productName = HiroUITests;
+			productReference = 560E44CE1B9554D3009C9BFD /* HiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560E44A41B9554D3009C9BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jonathanlong;
+				TargetAttributes = {
+					560E44AB1B9554D3009C9BFD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					560E44C21B9554D3009C9BFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 560E44AB1B9554D3009C9BFD;
+					};
+					560E44CD1B9554D3009C9BFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 560E44AB1B9554D3009C9BFD;
+					};
+				};
+			};
+			buildConfigurationList = 560E44A71B9554D3009C9BFD /* Build configuration list for PBXProject "Hiro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560E44A31B9554D3009C9BFD;
+			productRefGroup = 560E44AD1B9554D3009C9BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560E44AB1B9554D3009C9BFD /* Hiro */,
+				560E44C21B9554D3009C9BFD /* HiroTests */,
+				560E44CD1B9554D3009C9BFD /* HiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560E44AA1B9554D3009C9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560E44BD1B9554D3009C9BFD /* LaunchScreen.storyboard in Resources */,
+				560E44BA1B9554D3009C9BFD /* Assets.xcassets in Resources */,
+				560E44B51B9554D3009C9BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44C11B9554D3009C9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44CC1B9554D3009C9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560E44A81B9554D3009C9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560E44B21B9554D3009C9BFD /* ViewController.swift in Sources */,
+				560E44B01B9554D3009C9BFD /* AppDelegate.swift in Sources */,
+				560E44B81B9554D3009C9BFD /* Hiro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44BF1B9554D3009C9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560E44C81B9554D3009C9BFD /* HiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E44CA1B9554D3009C9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560E44D31B9554D3009C9BFD /* HiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		560E44C51B9554D3009C9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560E44AB1B9554D3009C9BFD /* Hiro */;
+			targetProxy = 560E44C41B9554D3009C9BFD /* PBXContainerItemProxy */;
+		};
+		560E44D01B9554D3009C9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560E44AB1B9554D3009C9BFD /* Hiro */;
+			targetProxy = 560E44CF1B9554D3009C9BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		560E44B31B9554D3009C9BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560E44B41B9554D3009C9BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		560E44BB1B9554D3009C9BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560E44BC1B9554D3009C9BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		560E44D51B9554D3009C9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560E44D61B9554D3009C9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560E44D81B9554D3009C9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.Hiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		560E44D91B9554D3009C9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.Hiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		560E44DB1B9554D3009C9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.HiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiro.app/Hiro";
+			};
+			name = Debug;
+		};
+		560E44DC1B9554D3009C9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.HiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiro.app/Hiro";
+			};
+			name = Release;
+		};
+		560E44DE1B9554D3009C9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.HiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hiro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		560E44DF1B9554D3009C9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.long.HiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hiro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560E44A71B9554D3009C9BFD /* Build configuration list for PBXProject "Hiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560E44D51B9554D3009C9BFD /* Debug */,
+				560E44D61B9554D3009C9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560E44D71B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "Hiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560E44D81B9554D3009C9BFD /* Debug */,
+				560E44D91B9554D3009C9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		560E44DA1B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "HiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560E44DB1B9554D3009C9BFD /* Debug */,
+				560E44DC1B9554D3009C9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		560E44DD1B9554D3009C9BFD /* Build configuration list for PBXNativeTarget "HiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560E44DE1B9554D3009C9BFD /* Debug */,
+				560E44DF1B9554D3009C9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		560E44B61B9554D3009C9BFD /* Hiro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				560E44B71B9554D3009C9BFD /* Hiro.xcdatamodel */,
+			);
+			currentVersion = 560E44B71B9554D3009C9BFD /* Hiro.xcdatamodel */;
+			path = Hiro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 560E44A41B9554D3009C9BFD /* Project object */;
+}
